@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 90px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add margin to separate the logo from the header text */
+}
+
+.header-text {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.header-link {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove the underline */
+}
+
+.header-text h1, .header-text h2 {
+  margin: 0;
+}
+
+.App-header {
+  background-color: #174D74;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: #075472;
+  color: white;
+  text-align: justify;
+  padding: 1px;
+  line-height: 1.0;
+}
+
+.navbar {
+  background-color: #66a5d1;
+  font-size: 21px; /* Increase the font size */
+  font-weight: bold; /* Apply bold font weight */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center; /* Center justify the buttons */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  position: relative;
+  margin: 0 35px; /* Adjust the margin to bring the buttons closer */
+}
+
+.nav-list li a {
+  color: rgb(12, 0, 0);
+  text-decoration: none;
+  padding: 15px 20px; /* Increase the padding to increase box size */
+}
+.dropdown {
+  position: relative; /* Add position relative to create a stacking context */
+  z-index: 999; /* Set a higher z-index to ensure the dropdown is displayed in front */
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fdfafa;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Set an even higher z-index for the dropdown content */
+  padding: 10px;
+}
+
+.dropdown-content a {
+  display: block; /* Display each option on a new line */
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #a5e9fa; /* Highlight the option on hover */
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

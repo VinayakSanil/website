@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  hr {
+    margin: 0 40px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 65%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  td:last-child {
+    white-space: pre-wrap;
+  }
+.sd{
+  font-size: 26px;
+  color: inherit;
+  color: #0645AD ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+  text-decoration: underline;
+}

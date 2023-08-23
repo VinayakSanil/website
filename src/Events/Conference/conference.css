@@ -1,0 +1,27 @@
+.conf{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.c-head{
+    text-align: center;
+    font-size: 40px;
+}
+.c-line{
+    width: 90%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #000;
+}
+.c-info{
+    text-align: center;
+    font-size: 26px;
+}
+.c-list{
+    list-style: disc;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c-link{
+    text-decoration: none;
+}

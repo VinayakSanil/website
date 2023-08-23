@@ -1,0 +1,68 @@
+.admissions-container {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .admissions-heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+  }
+  
+  .admissions-line {
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #000;
+  }
+  
+  .admissions-info {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .admissions-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .admissions-box {
+    flex: 0 0 45%;
+    border: 1px solid #000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+
+  .admissions-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .admissions-box h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .admissions-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .admissions-bottom-line {
+    width: 90%;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+  
+  .admissions-link {
+    text-align: left;
+    margin-bottom: 0.85%;
+  }
+  

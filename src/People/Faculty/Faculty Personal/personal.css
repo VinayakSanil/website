@@ -1,0 +1,59 @@
+.professor-page {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  .professor-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 28%;
+  }
+  
+  .professor-image {
+    width: 400px;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    align-self: center;
+  }
+  
+  .professor-details {
+    flex-grow: 1;
+    margin-top: 0%;
+  }
+  
+  .professor-name {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .professor-info {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .professor-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .professor-info p {
+    font-size: 22px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .professor-publications {
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .professor-publications a {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
